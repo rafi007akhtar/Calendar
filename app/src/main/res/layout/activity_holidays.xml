@@ -1,0 +1,591 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.farzanaakhtar.calendar.HOLIDAYS"
+    android:background="#000000"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIST OF HOLIDAYS"
+                android:layout_marginLeft="10dp"
+                android:textColor="#b49eb6"
+                android:textSize="35dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JANUARY"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1ST NEW YEAR"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13TH LOHRI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14th MAKAR SANKRANTI"
+                android:textSize="15dp"
+                android:textColor="#FFAF92"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26th REPUBLIC DAY"
+                android:textSize="15dp"
+                android:textColor="#FFAF92"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEBRUARY"
+                android:textSize="30dp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12TH BASANTA PANCHAMI"
+                android:textSize="15dp"
+                android:textColor="#FFAF92"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22nd RAVIDAS JAYANTI"
+                android:textSize="15dp"
+                android:textColor="#FFAF92"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MARCH"
+                android:textSize="30dp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7TH SHIV RATRI"
+                android:textSize="15dp"
+                android:textColor="#FFAF92"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22ND HOLI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23RD DHULENDI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25TH GOOD FRIDAY"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APRIL"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13TH BAISAKHI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14TH DR.AMBEDKAR JAYANTI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15TH RAM NAVAMI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19TH MAHAVIR JAYANTI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAY"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1ST MAY DAY"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21ST BUDDHA PURNIMA"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JULY"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7TH ID-UL-FITR"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AUGUST"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15TH INDEPENDENCE DAY"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18TH RAKSHA BANDHAN"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25TH JANMASHTAMI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEPTEMBER"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5TH GANESH CHATURTHI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13TH ID-UZOHA"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15TH ANANT CHATURDASHI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OCTOBER"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2ND GANDHI JAYANTI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11TH DUSSEHRA"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12TH MOHARRAM"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30TH DIWALI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOVEMBER"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1ST BHAI DOOJ"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14TH GURU NANAK'S BIRTHDAY"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DECEMBER"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13TH ID-E-MILAD"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25TH CHRISTMAS DAY"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13TH LOHRI"
+                android:textColor="#FFAF92"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIST OF BENGALI HOLIDAYS 2016"
+                android:textSize="30dp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DECEMBER-JANUARY(POUSH)"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JUN-JULY(ASHAR)"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16TH JUNE-AKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20TH JUNE-PURNIMA"
+                android:textColor="#FFFF"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4TH JULY-AMABOSHA"
+                android:textColor="#FFFF"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15TH JULY-AKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JULY-AUGUST(SRABON)"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30TH JULY-EKADASHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2nd AUGUST"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14TH AUGUST-AKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AUGUST-SEPTEMBER(BHADRO)"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JULY-AUGUST(SRABON)"
+                android:textColor="#FFFF"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28TH AUGUST"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1st SEPTEMBER"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th SEPTEMBER-GANESH CHATURTHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12th SEPTEMBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16th SEPTEMBER-PURNIMA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEPTEMBER-OCTOBER"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22nd SEPTEMBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12th OCTOBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16TH OCTOBER-PURNIMA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OCTOBER-NOVEMBER(KARTHIK)"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26TH OCTOBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30TH OCTOBER-AMAVASYA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11TH NOVEMBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14TH NOVEMBER-PURNIMA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOVEMBER-DECEMBER(AGRAYAN)"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25TH  NOVEMBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29TH NOVEMBER-AMAVASYA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10TH DECEMBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13TH DECEMBER-PURNIMA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DECEMBER-JANUARY(POUSH)"
+                android:textColor="#FFFF"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24TH DECEMBER-EKADOSHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29TH DECEMBER-AMAVASYA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8TH JANUARY-EKADASHI"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12TH JANUARY-PURNIMA"
+                android:textColor="#FFAF92"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
